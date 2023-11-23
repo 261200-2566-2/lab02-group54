@@ -24,9 +24,9 @@ public class AirPurifier {
     }
     int getPMlevel() {
         if(PMlevel >= 101) {
-            System.out.println("Unhealthy :(");
+            System.out.println("Unhealthy  :(");
         }else {
-            System.out.println("Healthy :)");
+            System.out.println("Healthy  :)");
         }
         return PMlevel;
     }
